@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.contain{
+    
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    height: 70%;
+    padding-left: 5%;
+    border: 3px slategray solid;
+}
+
+.top{
+    height: 30%;
+    background-color: aqua;
+}
+.info{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.name{
+    font-size: 60%;
+    position: relative;
+    bottom: 29% ;
+}
+.user{
+    height: 40%;
+    position: relative;
+    bottom: 20%;
+    filter: invert(1);
+}
+.location{
+    position: relative;
+    bottom: 29%;
+    height: 20%;
+}
+.location > img{
+    height: 80%;
+}
+
+.info > div > p{
+    position:relative;
+    bottom: 79%;
+    font-size: 82%;
+}
+.settings > a > img{
+    height: 20%;
+    
+}
+.settings {
+    position: relative;
+    bottom: 20%;
+}
