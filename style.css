@@ -57,3 +57,8 @@
 .settings > a > img{
     height: 20%;
 }
+
+.settings:hover{
+    transform: scale(1.05);
+    transition: .1s;
+}
